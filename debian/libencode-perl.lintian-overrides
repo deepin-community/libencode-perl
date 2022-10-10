@@ -1,0 +1,6 @@
+# I don't see why we would need an adverb in this sentence
+typo-in-manual-page usr/share/man/man3/Encode::Supported.3pm.gz line 471 algorithmical algorithmically
+
+# well, yes, this package is about encodings
+national-encoding usr/lib/*/perl5/*/Encode/CJKConstants.pm
+national-encoding usr/lib/*/perl5/*/Encode/JP/H2Z.pm
