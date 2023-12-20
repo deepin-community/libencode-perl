@@ -63,7 +63,7 @@ Comment: Some of these files bear a different copyright and licensing
 
 Files: debian/*
 Copyright: 2007, Jose Luis Rivas <ghostbar38@gmail.com>
- 2008-2021, gregor herrmann <gregoa@debian.org>
+ 2008-2023, gregor herrmann <gregoa@debian.org>
  2011, Fabrizio Regalli <fabreg@fabreg.it>
  2011, Ansgar Burchardt <ansgar@debian.org>
  2010-2011, Dominic Hargreaves <dom@earth.li>

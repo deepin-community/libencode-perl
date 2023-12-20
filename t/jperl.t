@@ -1,10 +1,10 @@
 #
-# $Id: jperl.t,v 2.5 2016/11/29 23:29:23 dankogai Exp $
+# $Id: jperl.t,v 2.7 2023/11/10 01:10:50 dankogai Exp dankogai $
 #
 # This script is written in euc-jp
 
 BEGIN {
-    require Config; import Config;
+    require Config; Config->import();
     if ($Config{'extensions'} !~ /\bEncode\b/) {
       print "1..0 # Skip: Encode was not built\n";
       exit 0;
@@ -18,7 +18,7 @@ BEGIN {
     exit 0;
     }
     if ($] >= 5.025 and !$Config{usecperl}) {
-    print "1..0 # Skip: encoding pragma not supported in Perl 5.26\n";
+    print "1..0 # Skip: encoding pragma not supported in Perl 5.25 or later\n";
     exit(0);
     }
     $| = 1;

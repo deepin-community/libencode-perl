@@ -1,6 +1,6 @@
 # I don't see why we would need an adverb in this sentence
-typo-in-manual-page usr/share/man/man3/Encode::Supported.3pm.gz line 471 algorithmical algorithmically
+typo-in-manual-page algorithmical algorithmically [usr/share/man/man3/Encode::Supported.3pm.gz:471]
 
 # well, yes, this package is about encodings
-national-encoding usr/lib/*/perl5/*/Encode/CJKConstants.pm
-national-encoding usr/lib/*/perl5/*/Encode/JP/H2Z.pm
+national-encoding [usr/lib/*/perl5/*/Encode/CJKConstants.pm]
+national-encoding [usr/lib/*/perl5/*/Encode/JP/H2Z.pm]
